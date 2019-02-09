@@ -58,3 +58,9 @@ Assets/Tiled2Unity/Scripts/Editor/ImportTiled2Unity.Prefab.cs(93,45): warning CS
 
 Code for issue 
                 finalPrefab = PrefabUtility.CreateEmptyPrefab(prefabPath);
+                
+                Object prefabParent = PrefabUtility.GetPrefabParent(Selection.activeGameObject);  is obsolete: `Use GetCorrespondingObjectFromSource.'
+                
+                
+                
+                NOTE THIS WILL BE REMOVED ONCE FIXED
